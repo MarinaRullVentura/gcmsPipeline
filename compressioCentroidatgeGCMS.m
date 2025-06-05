@@ -1,5 +1,13 @@
-%% PROCESSAMENT DE TOTS ELS FITXERS .CDF D'UNA CARPETA AMB MOSTRES GC-MS PER COMPRIMIR-LES I PASSAR-LES A MODE CENTROIDED
-
+% =========================================================================
+% SCRIPT: Compressió i centroidatge de fitxers .CDF de GC-MS (TFG BIOMED)
+%
+% Aquest script processa tots els fitxers .CDF d’una carpeta que contenen 
+% dades GC-MS. Per a cada espectre, agrupa els valors m/z idèntics, 
+% suma les intensitats associades (centroidatge bàsic), elimina senyals 
+% amb intensitat zero i reconstrueix el fitxer .CDF en un format comprimit. 
+%
+% Output: fitxers .CDF comprimts i centroidats guardats en una nova carpeta.
+% =========================================================================
 clc;
 clear all;
 close all;
