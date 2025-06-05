@@ -4,9 +4,7 @@
 % Aquest script llegeix tots els fitxers .CDF d’una carpeta, reconstrueix 
 % els perfils d’ions extrets (EICs) per a cada valor m/z, aplica una 
 % correcció de línia base per eliminar senyals de fons mitjançant `movmin`, 
-% i reconstrueix el fitxer amb les dades corregides. Es calcula també la 
-% variable `point_count` per mantenir la compatibilitat amb l’estructura 
-% NetCDF esperada.
+% i reconstrueix el fitxer amb les dades corregides.
 %
 % Output: fitxers .CDF corregits guardats en una nova carpeta.
 % =========================================================================
